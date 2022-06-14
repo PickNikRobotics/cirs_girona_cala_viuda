@@ -1,0 +1,92 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  duration:
+    nanoseconds: 1955247515782
+  files:
+  - duration:
+      nanoseconds: 1955247515782
+    message_count: 661327
+    path: full_dataset.db3
+    starting_time:
+      nanoseconds_since_epoch: 1372687208458031227
+  message_count: 661327
+  relative_file_paths:
+  - full_dataset.db3
+  starting_time:
+    nanoseconds_since_epoch: 1372687208458031227
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 45599
+    topic_metadata:
+      name: /sonar_micron
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: cirs_girona_cala_viuda/msg/RangeImageBeam
+  - message_count: 45599
+    topic_metadata:
+      name: /sonar_micron_ros
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/LaserScan
+  - message_count: 19553
+    topic_metadata:
+      name: /depth_sensor
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: cirs_girona_cala_viuda/msg/Depth
+  - message_count: 19553
+    topic_metadata:
+      name: /imu_xsens_mti
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: cirs_girona_cala_viuda/msg/Imu
+  - message_count: 19553
+    topic_metadata:
+      name: /imu_xsens_mti_ros
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Imu
+  - message_count: 97501
+    topic_metadata:
+      name: /sonar_seaking
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: cirs_girona_cala_viuda/msg/RangeImageBeam
+  - message_count: 97501
+    topic_metadata:
+      name: /sonar_seaking_ros
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/LaserScan
+  - message_count: 19965
+    topic_metadata:
+      name: /imu_adis
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: cirs_girona_cala_viuda/msg/Imu
+  - message_count: 19965
+    topic_metadata:
+      name: /imu_adis_ros
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Imu
+  - message_count: 5564
+    topic_metadata:
+      name: /dvl_linkquest
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: cirs_girona_cala_viuda/msg/LinkquestDvl
+  - message_count: 21843
+    topic_metadata:
+      name: /odometry
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: nav_msgs/msg/Odometry
+  - message_count: 249131
+    topic_metadata:
+      name: /tf
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: tf2_msgs/msg/TFMessage
+  version: 5
